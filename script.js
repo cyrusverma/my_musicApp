@@ -86,6 +86,13 @@ class song {
       "./audio/valhalla.mp3",
       'https://youtu.be/jxptIpCYAJA?si=X5db4lkTM5OwWh1Q'
     ),
+    new song(
+      "./img/animal.jpg",
+      "Killing Jija",
+      "Miracle Of Sound",
+      "./audio/killing_jija.mp3",
+      'https://youtu.be/jxptIpCYAJA?si=X5db4lkTM5OwWh1Q'
+    ),
   ];
   
   if (localStorage.getItem("currSong") == null) {
